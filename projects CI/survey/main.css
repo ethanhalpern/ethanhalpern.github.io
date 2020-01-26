@@ -1,0 +1,23 @@
+body {
+	background-color: orange;
+}
+
+.question-container {
+	background-color: turquoise;
+	padding: 22px;
+}
+
+.question{
+	font-family: arial;
+	font-size: 17px;
+}
+
+.answer{
+	font-size: 25px;
+	font-family: arial;
+}
+
+img {
+	width: 25%;
+	height: 25%;
+}
