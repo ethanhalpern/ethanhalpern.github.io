@@ -1,0 +1,25 @@
+body {
+  background-color: teal;
+}
+
+h1 {
+  font-family: 'arial', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: yellow;
+}
+
+h2 {
+  font-family: 'arial', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  font-family: 'arial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
