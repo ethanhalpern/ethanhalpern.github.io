@@ -5,6 +5,8 @@ body {
 .question-container {
 	background-color: turquoise;
 	padding: 22px;
+		font-family: arial;
+
 }
 
 .question{
@@ -20,4 +22,17 @@ body {
 img {
 	width: 25%;
 	height: 25%;
+}
+
+a {
+  color: black;
+}
+
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: black;
 }

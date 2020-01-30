@@ -23,3 +23,15 @@ h3{
   color: white;
 }
 
+a {
+  color: black;
+}
+
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: black;
+}
