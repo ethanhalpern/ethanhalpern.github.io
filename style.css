@@ -1,5 +1,6 @@
 body {
-  background-color: teal;
+background: linear-gradient(#20B2AA, #f5adc3,#1E90FF);
+background-size: 400% 400%;
 }
 
 h1 {
