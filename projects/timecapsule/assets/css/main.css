@@ -5,7 +5,7 @@ body {
 }
 
 img {
-  width: 150%;
+  width: 100%;
   margin-bottom: 0px;
 }
 
@@ -14,13 +14,13 @@ img {
   flex-wrap: wrap;
 }
 
-/*img {
- position: absolute; 
+img {
   left: 0px;
   top: 0px;
   z-index: -1;
 } 
 
+/*
 
 body {
   background-color: blue;
