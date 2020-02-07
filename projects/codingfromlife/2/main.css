@@ -8,7 +8,7 @@
 
 
 body {
-  background-color: black;
+  background-color: #00EFD1;
 }
 
 .frame {
@@ -20,3 +20,166 @@ body {
 }
 
 /* Your CSS goes here */
+
+.vase-wrapper{
+      top: 30%;
+    left: 80%;
+    z-index: 1;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+}
+
+.vase{
+  background-color: #3f659e;
+    width: 5%;
+    height: 6%;
+    position: absolute;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 13%;
+    border-top-right-radius: 60%;
+    z-index: 1;
+    top: 9%;
+    left: -23%;
+}
+
+.stem1{
+        width: 0.2%;
+    height: 5%;
+    background: green;
+    position: absolute;
+    top: 6%;
+    left: -22%;
+}
+
+
+.flower1{
+    width: 0%;
+    height: 0%;
+    border-left: 1vw solid transparent;
+    border-right: 3vw solid transparent;
+    border-bottom: 5vw solid pink;
+    position: absolute;
+    top: 2%;
+    left: -24%;
+}
+
+.stem2{
+    width: 0.2%;
+    height: 5%;
+    background: green;
+    position: absolute;
+    top: 6%;
+    left: -22.7%;
+}
+
+.flower2{
+    width: 0%;
+    height: 0%;
+    border-left: 1vw solid transparent;
+    border-right: 3vw solid transparent;
+    border-bottom: 5vw solid #b032bd;
+    background-color: ;
+    position: absolute;
+    top: 2%;
+    left: -23%;
+    transform: rotate(32deg);
+}
+
+.stem3{
+    width: 0.2%;
+    height: 5%;
+    background: green;
+    position: absolute;
+    top: 6%;
+    left: -21%;
+    transform: rotate(23deg);
+}
+
+.flower3{
+  width: 0%;
+    height: 0%;
+    border-left: 1vw solid transparent;
+    border-right: 3vw solid transparent;
+    border-bottom: 5vw solid pink;
+    background-color: ;
+    position: absolute;
+    top: 2%;
+    left: -21%;
+    transform: rotate(23deg);
+}
+
+.flowers{
+
+}
+
+
+.booktop{
+    width: 14%;
+    height: 1%;
+    background: black;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.bookbottom{
+width: 13%;
+    height: 12%;
+    background: gray;
+    position: absolute;
+    top: 61%;
+    left: 33%;
+    transform: skew(20deg);
+}
+
+.tabletop{
+      width: 80%;
+    height: 3%;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+.tableright{
+  width: 3%;
+    height: 28%;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 90%;
+}
+.tableleft{
+  width: 3%;
+    height: 29%;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+
+.bookside{
+      width: 7%;
+    height: 18%;
+    background: #c6ddf1;
+    position: absolute;
+    top: 52%;
+    left: 74%;
+}
+
+.cat{
+   background-color: #eecfff;
+    width: 5%;
+    height: 16%;
+    position: absolute;
+    border-color: #ff1111;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 53%;
+    border-top-right-radius: 480%;
+    border-radius: 50% 80% 0 0;
+    border-width: 12px;
+    top: 54%;
+    left: 57%;
+}
