@@ -1,0 +1,163 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: #00CED1;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.vase-wrapper{
+	top: 240px;
+    left: 290px;
+    z-index: 1;
+    position: absolute;
+}
+
+.vase{
+	border: 1px solid black;
+	background-color: white;
+	width: 140px;
+	height: 120px;
+	position: absolute;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	z-index: 1;
+}
+
+.stem1{
+	width: 10px;
+    height: 100px;
+    background: green;
+	position: absolute;
+	top: -25px;
+	left: 25px;
+}
+
+.flower1{
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 100px solid pink;
+	background-color: ;
+	position: absolute;
+	top: -105px;
+    left: -14px;
+}
+
+.stem2{
+	width: 10px;
+    height: 100px;
+    background: green;
+	position: absolute;
+	top: -25px;
+	left: 45px;
+}
+
+.flower2{
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid magenta;
+	position: absolute;
+	top: -105px;
+    left: 16px;
+    transform: rotate(12deg);
+}
+
+.stem3{
+	width: 10px;
+    height: 100px;
+    background: green;
+	position: absolute;
+	top: -25px;
+	left: 72px;
+  	transform: rotate(23deg);
+}
+
+.flower3{
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid pink;
+	background-color: ;
+	position: absolute;
+	top: -105px;
+    left: 75px;
+    transform: rotate(23deg);
+}
+
+.flowers{
+
+}
+
+
+.booktop{
+	width: 200px;
+    height: 10px;
+    background: black;
+    position: absolute;
+	top: 360px;
+    left: 255px;
+}
+
+.bookbottom{
+	width: 200px;
+    height: 50px;
+    background: gray;
+    position: absolute;
+	top: 370px;
+    left: 275px;
+     transform: skew(20deg);
+}
+
+.tabletop{
+	width: 800px;
+    height: 9px;
+    background: black;
+	position: absolute;
+	top: 420px;
+    left: 95px;
+}
+.tableright{
+	width: 9px;
+    height: 99px;
+    background: black;
+    position: absolute;
+    top: 420px;
+    left: 890px;
+}
+.tableleft{
+	width: 9px;
+    height: 99px;
+    background: black;
+	position: absolute;
+	top: 420px;
+    left: 95px;
+}
+
+.bookside{
+    width: 80px;
+    height: 120px;
+    background: gray;
+    position: absolute;
+    top: 310px;
+    left: 565px;
+}
