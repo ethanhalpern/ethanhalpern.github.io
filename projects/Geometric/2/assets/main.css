@@ -1,0 +1,38 @@
+div.box1 {
+  background-color: purple;
+    padding: 20px;
+    height: 800px;
+    width: 100px;
+    position: sticky;
+    top: 143%
+   	left: 12%;
+}
+
+div.box2 {
+  background-color: orange;
+    height: 190px;
+    width: 900px;
+    position: flex;
+    bottom: 200%;
+}
+
+div.box3 {
+  background-color: yellow;
+    height: 990px;
+    width: 110px;
+    border-radius: 20%;
+    z-index: 4;
+    top: 120%;
+    left: 42%;
+    position: sticky;
+
+}
+
+div.box4 {
+  height: 140px;
+  width: 590px;
+  background-color: red;
+  position: sticky;
+  top: 150%;
+  left: 24%;
+}
