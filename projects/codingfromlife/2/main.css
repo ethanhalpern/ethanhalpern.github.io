@@ -168,8 +168,8 @@ width: 13%;
     left: 74%;
 }
 
-.cat{
-   background-color: #eecfff;
+.catbottom{
+   background-color: #f8ebff;
     width: 5%;
     height: 16%;
     position: absolute;
@@ -183,3 +183,42 @@ width: 13%;
     top: 54%;
     left: 57%;
 }
+
+.catrightear {
+    background-color: #f8ebff;
+    width: 1.5%;
+    height: 5%;
+    position: absolute;
+    border-color: #FF110E;
+    border-bottom-right-radius: 741%;
+    border-bottom-left-radius: 983%;
+    border-top-left-radius: 345%;
+    border-top-right-radius: 1020%;
+    border-radius: 0% 80% 0 -60;
+    border-width: 12px;
+    top: 55%;
+    left: 56.5%;
+  }
+
+.catleftear {
+    background-color: #f8ebff;
+    width: 2%;
+    height: 5%;
+    position: absolute;
+    border-color: #ff1111;
+    border-bottom-right-radius: 630%;
+    border-top-left-radius: 557%;
+    border-top-right-radius: 168%;
+    border-width: 35px;
+    top: 55%;
+    left: 60%;
+}
+
+.camera {
+    background: black;
+    top: 65%;
+    left: 18%;
+    width: 4%;
+    height: 5%;
+    position: absolute;
+  }
