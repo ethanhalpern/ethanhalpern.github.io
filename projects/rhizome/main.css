@@ -57,59 +57,59 @@ line-height: 1.6pt;
     height: 5%;
     width: 5%;
     position: absolute;
-    top: 434px;
-    left: 650px;
+    top: 48%;
+    left: 50%;
 }
 
 .text2{
 	position: absolute;
-    left: 20px;
-    top: 540px;
+   left: 6%;
+    top: 50%;
 }
 
 .text3{
 	position: absolute;
-    left: 280px;
-    top: 1290px;
+    left: 17%;
+    top: 139%;
     text-align: center;
 }
 
 .link{
 	position: absolute;
-    left: 280px;
-    top: 1000px;
+        left: 20%;
+    top: 105%;
     text-align: center;
 }
 
 .img2{
 	position: absolute;
-    left: 800px;
-    top: 1590px;
-    height: 100px;
-    width: 100px;
+    left: 56%;
+    top: 164%;
+    height: 100%;
+    width: 100%;
 }
 
 .text4{
 	position: absolute;
-    top: 1590px;
+     top: 165%;
     text-align: right;
 }
 
 .text5{
 	position: absolute;
-    top: 2100px;
-    left: 800px;
+    top: 210%;
+    left: 57%;
     text-align: left;
 }
 
 .img3{
 	position: absolute;
-  	top: 350px;
-    left: 5px;
+  	top: 247%;
+    left: 56%;
 }
 
 .img4{
 	position: absolute;
-  	top: 450px;
-    left: -750px;
+  	 top:  274%;
+    left: 4%;
 }
