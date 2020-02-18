@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: 'styrene';
+  src: url('assets/StyreneB-Bold.woff2') format('woff2');
+  font-style: normal;
+}
+
+h1 {
+font-size: 40pt;
+font-family: 'styrene';
+color: limegreen;
+}
+
+h2 {
+font-size: 20pt;
+font-family: 'styrene';
+color: dodgerblue;
+}
+
+h3 {
+font-size: 25pt;
+font-family: 'styrene';
+color: turquoise;
+text-shadow: 2px 2px orange;
+text-align: center;
+}
+
+h4 {
+font-size: 14pt;
+font-family: 'styrene';
+color: magenta;
+text-align: right;
+
+}
+
+img{
+	height: 150%;
+	width: 150%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 10px;
+} 
