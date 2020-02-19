@@ -32,12 +32,12 @@ color: magenta;
 text-align: right;
 
 }
-
-img{
-	height: 150%;
-	width: 150%;
+h5 {
+font-size: 14pt;
+font-family: 'styrene';
+color: magenta;
+text-align: left;
 }
-
 
 * {
   box-sizing: border-box;
@@ -48,7 +48,23 @@ img{
 }
 
 .col {
-  width: 100%;
+  width: 1500%;
   padding-left: 5px;
-  padding-right: 10px;
+  padding-right: 5px;
 } 
+
+.link{
+font-size: 40pt;
+font-family: 'styrene';
+color: limegreen;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+
