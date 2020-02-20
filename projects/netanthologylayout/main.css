@@ -38,6 +38,19 @@ font-family: 'styrene';
 color: magenta;
 text-align: left;
 }
+h6 {
+font-size: 14pt;
+font-family: 'styrene';
+color: orange;
+text-align: left;
+}
+
+h7 {
+font-size: 14pt;
+font-family: 'styrene';
+color: navy;
+text-align: left;
+}
 
 * {
   box-sizing: border-box;
@@ -48,7 +61,7 @@ text-align: left;
 }
 
 .col {
-  width: 1500%;
+  width: 33.33%;
   padding-left: 5px;
   padding-right: 5px;
 } 
@@ -68,3 +81,8 @@ color: limegreen;
   }
 
 
+.col1 {
+  width: %;
+  padding-left: 5px;
+  padding-right: 5px;
+} 
