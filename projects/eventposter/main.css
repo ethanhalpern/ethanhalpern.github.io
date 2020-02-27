@@ -195,33 +195,45 @@ h2{
     font-size: 30px;
     top: 85%;
     left: 19%;
+    color: magenta;
+
   }
     .book {
     font-size: 30px;
     top: 70%;
     left: 24%;
+    color: magenta;
+
   }
     .music {
     font-size: 30px;
     top: 55%;
     left: 14%;
+    color: magenta;
+
   }
 
 .sub {
   font-size: 6vmin;
   left: 10%;
   top: 45%;
+  color: dodgerblue;
+
 }
 
 .name1 {
   font-size: 6vmin;
   left: 19%;
   top: 16%;
+  color: dodgerblue;
+
 }
 .name2 {
   font-size: 6vmin;
   left: 19%;
   top: 25%;
+  color: dodgerblue;
+
 }
 
 .intro {
