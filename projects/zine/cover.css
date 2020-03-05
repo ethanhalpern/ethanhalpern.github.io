@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'akzidenzgrotesk';
+  src: url('assets/AkzidenzGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+html {
+	font-family: 'akzidenzgrotesk';
+}
+
+h1{
+    font-size: 200px;
+    color: white;
+  	text-shadow: 2px 2px black;
+}
+
+h2{
+    font-size: 140px;
+    color: white;
+}
+
+h3{
+    font-size: 190px;
+    color: dodgerblue;
+    align-content: right;
+    text-shadow: 2px 2px black;
+}
+
+body {
+  background: #FF5C63;
+}
+
+.whats{
+	position: absolute;
+	top: 10%;
+
+}
+.marc{
+	position: absolute;
+    bottom: 21%;
+    left: 40%;
+}
+
+.link{
+	position: absolute;
+   	bottom: 14%;
+    left: 16%;
+        font-size: 140px;
+    color: white;
+}
