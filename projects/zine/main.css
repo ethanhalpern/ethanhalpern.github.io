@@ -15,6 +15,7 @@ html {
 	font-family: 'akzidenzgrotesk';
 }
 
+
 .title{
 	width: 100%;
 	height: 15%;
@@ -28,6 +29,7 @@ html {
 	position: fixed;
 	padding-left: 0%;
 }
+
 
 
 h2{
@@ -159,6 +161,7 @@ h5{
 }
 
 
+
 @media print { 
   /* All your print styles go here, for example: */
   .header, 
@@ -256,3 +259,4 @@ img {
     display: none !important; 
   }
 }
+
