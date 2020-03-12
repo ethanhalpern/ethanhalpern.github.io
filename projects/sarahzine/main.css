@@ -1,0 +1,70 @@
+
+img {
+  width: 50%;
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #F04D2E;
+  margin: 0;
+}
+
+h1{
+    font-size: 13vw;
+    text-align: center;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin: auto;
+
+}
+
+h2{
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h3{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    font-family: proxima-nova, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.row {
+	display: flex;
+	margin-bottom: 50px;
+}
+.writing{
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 4%;
+}
+
+.stitch{
+	width: 30%;
+	padding-left: 20%
+}
+
+.word{
+	width: 50%;
+	margin-top: -222px;
+    padding-left: 64%;
+}
+
+.quiz{
+	width: 50%;
+    margin-top: -280px;
+	padding-left: 36%;
+}
