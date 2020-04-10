@@ -52,3 +52,7 @@ font-weight: bold;
 .button-hover:hover {
     opacity: 1;
 }
+
+svg{
+  size: 500px;
+}
