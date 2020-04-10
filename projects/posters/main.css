@@ -1,9 +1,8 @@
 @font-face {
   font-family: 'CooperHewitt';
-  src: url('assets/cooperhewitt-heavy.woff') format('woff');
+  src: url('assets/CooperHewitt-Heavy.woff') format('woff');
   font-style: normal;
 }
-
 html {
 	font-family: 'cooperhewitt';
 }
