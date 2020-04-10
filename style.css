@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url('AkzidenzGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+* { box-sizing: border-box; }
+
+img {
+  width: 123%;
+  height: 100%;
+}
+
+html {
+  font-family: 'AkzidenzGrotesk';
+}
+
 body {
 background: linear-gradient(#20B2AA,#1E90FF);
 background-size: 400% 400%;
@@ -18,8 +35,8 @@ h2 {
 }
 
 h3{
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 40px;
+  font-family: 'AkzidenzGrotesk', sans-serif;
+  font-size: 50px;
   text-align: center;
   color: white;
 }
