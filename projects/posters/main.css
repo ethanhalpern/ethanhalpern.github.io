@@ -21,26 +21,22 @@ h1{
 
 .circle{
 	height: 100%;
-    width: 100%;
+    width: 80%;
     background-color: #6E75E7;
     border-radius: 50%;
     position:absolute;
     z-index: 1;
-    animation-duration: 9s;
+    animation-duration: 8s;
   	animation-name: slidein;
   	animation-iteration-count: infinite;
 
 }
 
 @keyframes slidein {
-  from {
-    margin-right: 90%;
-    width: 75%; 
-  }
 
-  to {
-    margin-left: 100%;
-    width: 75%;
-  }
+0% {
+    transform: translateX(-100%);
 }
-
+100% {
+    transform: translateX(127%);
+}
