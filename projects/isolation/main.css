@@ -7,8 +7,8 @@
 * { box-sizing: border-box; }
 
 img {
-	width: 123%;
-	height: 100%;
+	width: auto;
+	height: auto;
 }
 
 html {
@@ -49,4 +49,49 @@ h2{
     padding-right: 14%;
     padding-left: 4%;
     line-height: 113%;
+}
+.week {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+/*.week:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+}*/
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 57.2%;
+}
+
+/* OTHER STYLES */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(top, #fad961, #f76d1d);
+  background-attachment: fixed;
+}
+
+.month {
+  max-width: 86%;
+  margin: 20px auto;
+}
+
+.week {
+  height: 80px;
+}
+
+.day {
+  color: white;
+  padding: 5px;
+  box-shadow: 
+    -1px -1px white, 
+    inset -1px -1px 0 0 white;
 }

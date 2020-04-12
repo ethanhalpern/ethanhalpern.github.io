@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url('assets/CooperHewitt-Heavy.woff') format('woff');
+  font-style: normal;
+}
+html {
+	font-family: 'cooperhewitt';
+}
+body {background-color: #F3B4CC;}
+
+h1{
+    font-size: 790%;
+    color: #F3B4CC;
+    text-align: center;
+    z-index: 1;
+    padding-left: 20%;
+    padding-right: 20%;
+    position:absolute;
+    z-index: 2;
+}
+
+.circle{
+	height: 100%;
+    width: 80%;
+    background-color: #1661E8;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 1;
+    animation-duration: 4s;
+  	animation-name: slidein;
+  	animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.11, 0.68, 0.81, 0.31);
+
+}
+
+@keyframes slidein {
+
+0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(127%);
+}
