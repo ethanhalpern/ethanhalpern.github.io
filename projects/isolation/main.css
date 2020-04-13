@@ -95,3 +95,20 @@ body {
     -1px -1px white, 
     inset -1px -1px 0 0 white;
 }
+
+
+.
+
+
+.weak:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+}
+
+.weak:last-of-type .day:last-of-type {
+  margin-right: 28.585%;
+}
+
+.weak {
+  height: 80px;
+  display: flex;
+}

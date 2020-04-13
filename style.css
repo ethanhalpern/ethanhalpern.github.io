@@ -19,58 +19,43 @@ body {
 background: linear-gradient(#20B2AA,#1E90FF);
 background-size: 400% 400%;
 transition: background 1s;
-}
+  }
 
 h1 {
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 45px;
+   font-family: 'AkzidenzGrotesk', sans-serif;
+  font-size: 100px;
   text-align: center;
-  color: yellow;
+  color: #22F0FF;
 }
 
-h2 {
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: 55px;
-  text-align: center;
-  color: white;
-}
 
 h3{
   font-family: 'AkzidenzGrotesk', sans-serif;
-  font-size: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-top: -2%;
+}
+
+
+a:link {
+  font-family: 'AkzidenzGrotesk', sans-serif;
+  font-size: 60px;
   text-align: center;
   color: white;
-}
+  }
 
-/*.dropdown {
-  border-radius: 45px;
-  padding: 10px;
-  font-size: 40px;
-}
-.dropdown:hover {
-    color: blue; */
+/* visited link */
+a:visited {
+ font-family: 'AkzidenzGrotesk', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  }
 
 a:hover {
-color: ##00FF00;
-text-decoration: none;
-font-weight: bold;
-}
-
-.button-hover {
-
-    color: ##00FF00;
-    -webkit-transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -ms-transition: opacity 0.3s ease-in-out;
-    -o-transitiion: opacity 0.5s ease-in-out;
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0.9;
-}
-
-.button-hover:hover {
-    opacity: 1;
-}
-
-svg{
-  size: 500px;
+  font-family: 'AkzidenzGrotesk', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #FF6337;
 }
