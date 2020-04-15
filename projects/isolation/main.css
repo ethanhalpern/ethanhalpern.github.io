@@ -97,9 +97,6 @@ body {
 }
 
 
-.
-
-
 .weak:first-of-type .day:first-of-type {
   margin-left: 42.85714%;
 }
@@ -111,4 +108,15 @@ body {
 .weak {
   height: 80px;
   display: flex;
+}
+
+.lightbox {
+  display: none;
+}
+
+.lightbox-is-open .lightbox {
+  display: block;
+  width: 5px;
+  height: 5px;
+  color: #FF4D77;
 }
