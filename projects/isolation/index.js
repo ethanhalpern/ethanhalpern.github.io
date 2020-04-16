@@ -1,9 +1,8 @@
 $('.open-lightbox').click(function() {
-  $('body').addClass('lightbox-is-open');
+  $('lightbox').addClass('lightbox-is-open');
 });
 
 $('.close-lightbox').click(function() {
-  $('body').removeClass('lightbox-is-open');
+  $('lightbox').removeClass('lightbox-is-open');
 });
-
 
