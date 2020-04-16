@@ -128,27 +128,13 @@ body {
   display: flex;
 }
 
-/*.lightbox {
-    display: block;
-    width: 500%;
-    height: 500%;
-    z-index: 5;
-    padding-right: 80%;
-    background-color: white;
-    border: 2px #7429FF;
-  }
-
-/*
-.lightbox {
-  display: none;
-}*/
 
 .lightbox-is-open .lightbox {
   display: block;
-    width: 500%;
-    height: 500%;
+    width: 40%;
+    height: 30%;
     z-index: 5;
-    padding-right: 80%;
+    align-items:  center;
     background-color: white;
     border: 2px #7429FF;
   cursor: pointer;

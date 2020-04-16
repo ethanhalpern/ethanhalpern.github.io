@@ -24,7 +24,10 @@ $(function() {
     console.log('i clicked it');
     $('body').addClass('lightbox-is-open');
   });
-
+ $('.close-lightbox').click(function() {
+    console.log('i clicked it');
+    $('body').addClass('lightbox-is-closed');
+  });
 
 // end of special jquery function
 
