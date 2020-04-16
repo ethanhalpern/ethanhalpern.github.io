@@ -48,6 +48,11 @@ body {background-color: #7429FF;}
   padding-bottom: 5%;
 }
 
+.row3 {
+  display: flex;
+}
+
+
 h4{
     font-size: 332%;
     color: white;
@@ -68,9 +73,23 @@ h2{
 
 h3{
    color: white;
-    font-size: 154%;
-    padding-left: 16px;
+    font-size: 494%;
+    padding-left: 4%;
+    padding-right: 0%;
+    line-height: 195%;
+    word-spacing: 2vw;
+    margin-top: -4%;
 }
+
+h5{
+    font-size: 50%;
+    color: #7429FF;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+}
+
 .week {
   display: flex;
 }
@@ -127,6 +146,15 @@ body {
   height: 80px;
   display: flex;
 }
+.lightbox{
+    display: block;
+    width: 40%;
+    height: 30%;
+    z-index: 5;
+    background-color: white;
+    border: 2px #FF4D77;
+    cursor: pointer;
+}
 
 
 .lightbox-is-open .lightbox {
@@ -140,16 +168,22 @@ body {
   cursor: pointer;
 }
 
-/* unvisited link */
-a:link {
-color: white;
-    font-size: 200%;
-    padding-left: 16px;
-  }
 
-/* visited link */
-a:visited {
-color: white;
-    font-size: 200%;
-    padding-left: 16px;
-  }
+.column{
+    width: 50%;
+    /* padding-right: 5%; */
+    margin-left: 5%;
+}
+
+.column2{ 
+  width: 50%;
+   /* padding-right: 5%; */
+  margin-left: 5%;
+}
+
+.lightbox{ 
+display: none;
+}
+.box:hover .lightbox{
+display : block;
+}
