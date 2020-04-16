@@ -5,3 +5,5 @@ $('.open-lightbox').click(function() {
 $('.close-lightbox').click(function() {
   $('body').removeClass('lightbox-is-open');
 });
+
+

@@ -40,8 +40,16 @@ body {background-color: #7429FF;}
 }
 .row {
 	display: flex;
-
 }
+.row2 {
+  display: flex;
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
 
 h2{
     font-size: 732%;
@@ -49,6 +57,12 @@ h2{
     padding-right: 14%;
     padding-left: 4%;
     line-height: 113%;
+}
+
+h3{
+   color: white;
+    font-size: 154%;
+    padding-left: 16px;
 }
 .week {
   display: flex;
@@ -89,11 +103,8 @@ body {
 }
 
 .day {
-  color: white;
-  padding: 5px;
   box-shadow: 
-    -1px -1px white, 
-    inset -1px -1px 0 0 white;
+    -5px -5px #FF4D77, inset -5px -5px 0 0 #FF4D77
 }
 
 
@@ -119,4 +130,19 @@ body {
   width: 5px;
   height: 5px;
   color: #FF4D77;
+
 }
+
+/* unvisited link */
+a:link {
+color: white;
+    font-size: 200%;
+    padding-left: 16px;
+  }
+
+/* visited link */
+a:visited {
+color: white;
+    font-size: 200%;
+    padding-left: 16px;
+  }
