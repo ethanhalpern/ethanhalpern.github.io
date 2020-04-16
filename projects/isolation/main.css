@@ -48,7 +48,14 @@ body {background-color: #7429FF;}
   padding-bottom: 5%;
 }
 
-
+h4{
+    font-size: 332%;
+    color: white;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+}
 
 
 h2{
