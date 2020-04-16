@@ -150,7 +150,9 @@ body {
     z-index: 5;
     padding-right: 80%;
     background-color: white;
-    border: 2px #7429FF;}
+    border: 2px #7429FF;
+  cursor: pointer;
+}
 
 /* unvisited link */
 a:link {

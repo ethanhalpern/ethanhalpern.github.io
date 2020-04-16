@@ -20,8 +20,10 @@ $(function() {
 
 
 
-  // End of your code
-
+ $('.open-lightbox').click(function() {
+    console.log('i clicked it');
+    $('body').addClass('lightbox-is-open');
+  });
 
 
 // end of special jquery function
