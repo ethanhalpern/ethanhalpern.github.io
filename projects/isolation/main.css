@@ -128,17 +128,29 @@ body {
   display: flex;
 }
 
+/*.lightbox {
+    display: block;
+    width: 500%;
+    height: 500%;
+    z-index: 5;
+    padding-right: 80%;
+    background-color: white;
+    border: 2px #7429FF;
+  }
+
+/*
 .lightbox {
   display: none;
-}
+}*/
 
 .lightbox-is-open .lightbox {
   display: block;
-  width: 5px;
-  height: 5px;
-  color: #FF4D77;
-
-}
+    width: 500%;
+    height: 500%;
+    z-index: 5;
+    padding-right: 80%;
+    background-color: white;
+    border: 2px #7429FF;}
 
 /* unvisited link */
 a:link {
