@@ -84,10 +84,12 @@ h3{
 h5{
     font-size: 50%;
     color: #7429FF;
-    padding-right: 14%;
+    padding-right: 8%;
     padding-left: 4%;
     padding-top: 1%;
     line-height: 113%;
+    word-spacing: 0vw;
+
 }
 
 .week {
@@ -148,7 +150,7 @@ body {
 }
 .lightbox{
     display: block;
-    width: 40%;
+    width: 65%;
     height: 30%;
     z-index: 5;
     background-color: white;
