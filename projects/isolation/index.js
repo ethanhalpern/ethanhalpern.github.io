@@ -20,6 +20,7 @@ $(function() {
 
 
 
+
  $('.open-lightbox').click(function() {
     console.log('i clicked it');
     $('body').addClass('lightbox-is-open');

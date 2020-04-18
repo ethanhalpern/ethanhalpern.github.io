@@ -9,6 +9,8 @@
 img {
 	width: auto;
 	height: auto;
+  align-items: center;
+  padding-top: 1%;
 }
 
 html {
@@ -16,7 +18,7 @@ html {
 }
 
 
-body {background-color: #7429FF;}
+body {background-color: #872EFF;}
 
 .title{
     width: 100%;
@@ -26,8 +28,8 @@ body {background-color: #7429FF;}
     top: 27%;
     font-size: 95px;
     text-align: center;
-    color: #FF4D77;
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 3px 3px #7429FF;
 	/*background-color: #2952FF;
 	padding: 00%;
 	position: fixed;
@@ -151,11 +153,12 @@ body {
 .lightbox{
     display: block;
     width: 65%;
-    height: 30%;
+    height: auto;
     z-index: 5;
     background-color: white;
-    border: 2px #FF4D77;
+    border: 7px #6px;
     cursor: pointer;
+    position: absolute;
 }
 
 
@@ -166,7 +169,7 @@ body {
     z-index: 5;
     align-items:  center;
     background-color: white;
-    border: 2px #7429FF;
+    border: 6px #51FFD8;
   cursor: pointer;
 }
 
@@ -188,4 +191,10 @@ display: none;
 }
 .box:hover .lightbox{
 display : block;
+
+}
+
+.box{
+color: #51FFD8;
+
 }
