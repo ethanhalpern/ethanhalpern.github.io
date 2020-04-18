@@ -18,7 +18,10 @@ html {
 }
 
 
-body {background-color: #872EFF;}
+body {
+  background: linear-gradient(#626DFF,#0236FF);
+  background-size: 100% 650%;
+}
 
 .title{
     width: 100%;
@@ -57,7 +60,7 @@ body {background-color: #872EFF;}
 
 h4{
     font-size: 332%;
-    color: white;
+    color: #F8DCD3;
     padding-right: 14%;
     padding-left: 4%;
     padding-top: 1%;
@@ -67,14 +70,14 @@ h4{
 
 h2{
     font-size: 732%;
-    color: white;
+    color: #F8DCD3;
     padding-right: 14%;
     padding-left: 4%;
     line-height: 113%;
 }
 
 h3{
-   color: white;
+   color: #F8DCD3;
     font-size: 494%;
     padding-left: 4%;
     padding-right: 0%;
@@ -85,7 +88,7 @@ h3{
 
 h5{
     font-size: 50%;
-    color: #7429FF;
+    color: #0236FF;
     padding-right: 8%;
     padding-left: 4%;
     padding-top: 1%;
@@ -195,6 +198,6 @@ display : block;
 }
 
 .box{
-color: #51FFD8;
+color: #B1FFF9;
 
 }
