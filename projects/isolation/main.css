@@ -94,7 +94,6 @@ h5{
     padding-top: 1%;
     line-height: 113%;
     word-spacing: 0vw;
-
 }
 
 .week {
@@ -155,7 +154,7 @@ body {
 }
 .lightbox{
     display: block;
-    width: 65%;
+    width: 55%;
     height: auto;
     z-index: 5;
     background-color: white;
