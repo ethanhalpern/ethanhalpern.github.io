@@ -31,7 +31,7 @@ body {
     top: 27%;
     font-size: 95px;
     text-align: center;
-    color: white;
+    color: #F8DCD3;
     text-shadow: 3px 3px #0236FF;
 	/*background-color: #2952FF;
 	padding: 00%;
@@ -61,6 +61,14 @@ body {
 h4{
     font-size: 332%;
     color: #F8DCD3;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+}
+h6{
+    font-size: 332%;
+    color: #B1FFF9;
     padding-right: 14%;
     padding-left: 4%;
     padding-top: 1%;
@@ -157,8 +165,7 @@ body {
     width: 55%;
     height: auto;
     z-index: 5;
-    background-color: white;
-    border: 7px #6px;
+    background-color: #F8DCD3;;
     cursor: pointer;
     position: absolute;
 }
@@ -170,8 +177,8 @@ body {
     height: 30%;
     z-index: 5;
     align-items:  center;
-    background-color: white;
-    border: 6px #51FFD8;
+    background-color: #F8DCD3;
+    border: 6px 6px #51FFD8;
   cursor: pointer;
 }
 
@@ -200,3 +207,32 @@ display : block;
 color: #B1FFF9;
 
 }
+
+.links{
+    font-size: 332%;
+    color: #B1FFF9;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+  }
+}
+/* unvisited link */
+a:link {
+   font-size: 332%;
+    color: #B1FFF9;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+  }
+
+/* visited link */
+a:visited {
+   font-size: 332%;
+    color: #B1FFF9;
+    padding-right: 14%;
+    padding-left: 4%;
+    padding-top: 1%;
+    line-height: 113%;
+  }
