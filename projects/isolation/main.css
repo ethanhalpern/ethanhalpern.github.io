@@ -217,20 +217,18 @@ color: #B1FFF9;
     line-height: 113%;
   }
 }
-/* unvisited link */
 a:link {
    font-size: 332%;
-    color: #B1FFF9;
+    color: #F8DCD3;
     padding-right: 14%;
     padding-left: 4%;
     padding-top: 1%;
     line-height: 113%;
   }
 
-/* visited link */
 a:visited {
    font-size: 332%;
-    color: #B1FFF9;
+    color: #F8DCD3;
     padding-right: 14%;
     padding-left: 4%;
     padding-top: 1%;
