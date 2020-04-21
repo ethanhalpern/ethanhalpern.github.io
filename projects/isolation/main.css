@@ -42,6 +42,7 @@ body {
 
 .row1 {
   display: flex;
+  padding-right: 9%;
 }
 .row {
   display: flex;
@@ -49,8 +50,7 @@ body {
 .row2 {
   display: flex;
   padding-left: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+
 }
 
 .photo{
@@ -84,7 +84,6 @@ h6{
 h2{
     font-size: 732%;
     color: #F8DCD3;
-    padding-right: 14%;
     padding-left: 4%;
     line-height: 113%;
 }
