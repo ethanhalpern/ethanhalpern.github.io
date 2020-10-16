@@ -1,10 +1,10 @@
-var source = "assets/first.m4a"
- var audio = document.createElement("audio");
+var source = "assets/mnc.mov"
+ var video = document.createElement("video");
  //
- audio.autoplay = true;
+ video.autoplay = true;
  //
- audio.load()
- audio.addEventListener("load", function() { 
-     audio.play(); 
+ video.load()
+ video.addEventListener("load", function() { 
+     video.play(); 
  }, true);
- audio.src = source;
+ video.src = source;
