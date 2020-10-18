@@ -8,6 +8,3 @@ var source = "assets/mnc.mov"
      video.play(); 
  }, true);
  video.src = source;
-
-
- 
