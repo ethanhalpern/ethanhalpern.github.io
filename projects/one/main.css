@@ -11,3 +11,24 @@ video {
   height: 100%;
   width: 100%;
 }
+
+div {
+  text-align:center;
+  width:100%;
+}
+iframe{
+    width: 70%;
+    padding-top: 0%;
+}
+
+.play{
+	height: 50%;
+	width: 50%;
+}
+
+img{
+	height: 30%;
+	width: 30%;
+	padding-top: 10%;
+	padding-left: 80%;
+}
