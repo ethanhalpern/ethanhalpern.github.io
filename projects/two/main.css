@@ -37,3 +37,11 @@ img{
 .container {
 display: flex;
 }
+
+
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color: white;
+}
