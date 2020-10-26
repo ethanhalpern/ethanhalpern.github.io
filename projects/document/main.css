@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Space Mono', monospace;
-  font-size: 50px;
+  font-size: 20px;
   line-height: 1em;
 }
 
@@ -17,7 +17,7 @@ body {
 #container {
   background-color: #efefef;
   width: 1000px;
-  padding: 50px;
+  padding: 10px;
   margin: 50px auto;
   word-wrap: break-word;
   text-align:center;
@@ -39,7 +39,7 @@ img {
 }
 
 .doc {
-padding-left: 20%
+padding-left: 20%;
 }
 
 .code {
