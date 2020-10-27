@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'AkzidenzGrotesk';
+  src: url('AkzidenzGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+}
+
 body {
 background-color: black;
 }
@@ -17,28 +23,21 @@ div {
   width:100%;
 }
 iframe{
-    width: 50%;
-    height: 40%;
+    width: 70%;
     padding-top: 0%;
 }
 
 .play{
 	height: 50%;
 	width: 50%;
-    padding-top: 1%;
-    padding-left: 20%;
-    display: flex;
 }
 
 img{
-	height: auto;
-	width: auto;
+	height: 30%;
+	width: 30%;
+	padding-top: 10%;
+	padding-left: 80%;
 }
-
-.container {
-display: flex;
-}
-
 
 p {
   text-align: center;
@@ -46,3 +45,4 @@ p {
   margin-top: 0px;
   color: white;
 }
+
