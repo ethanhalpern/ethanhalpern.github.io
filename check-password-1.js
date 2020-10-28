@@ -5,10 +5,10 @@ function myFunction() {
   x = document.getElementById("numb").value;
 
   // If x is Not a Number or less than one or greater than 10
-  if (x==4130) {
-    text = "Incorrect please try again!";
+  if (x==4310) {
+    text = "Correct facebook.com";
   } else {
-    text = "Correct please go to bit.ly/mncgallery";
+    text = "NO";
   }
   document.getElementById("demo").innerHTML = text;
 }
