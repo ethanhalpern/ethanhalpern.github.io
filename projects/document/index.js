@@ -6,7 +6,7 @@ function myFunction() {
 
   // If x is Not a Number or less than one or greater than 10
   if (x==4130) {
-    text = "Incorrect please try again!";
+    text = "Correct please go to bit.ly/mncgallery";
   } else {
     text = "Correct please go to bit.ly/mncgallery";
   }
