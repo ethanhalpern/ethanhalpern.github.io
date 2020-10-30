@@ -1,8 +1,44 @@
-body{
-  background-color: #DDB228;
+
+.enter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 10%;
 }
 
-img{
-  padding-left: 21%;
-    padding-top: 21%;
+
+/* Standard syntax */
+@keyframes backgroundColorPalette {
+  0% {
+    background: #4D33FF;
+  }
+  25% {
+    background: #13bf41;
+  }
+  50% {
+    background: #ffa319;
+  }
+  75% {
+    background: #ff2e74;
+  }
+  100% {
+    background: #d2ff57;
+  }
+}
+
+body {
+  animation-name: backgroundColorPalette;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.mnc{
+margin-left: auto;
+  margin-right: auto;
+      margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    padding-top: 2%;
 }
