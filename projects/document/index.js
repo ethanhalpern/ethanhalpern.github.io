@@ -6,9 +6,9 @@ function myFunction() {
 
   // If x is Not a Number or less than one or greater than 10
   if (x==4130) {
-    text = "Correct please enter bit.ly/mncgallery into a web browser on your computer";
+    text = "Correct please go to bit.ly/mncgallery";
   } else {
-    text = "Correct please enter bit.ly/mncgallery into a web browser on your computer";
+    text = "incorrect. please try again!";
   }
   document.getElementById("demo").innerHTML = text;
 }
