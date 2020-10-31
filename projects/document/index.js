@@ -8,7 +8,7 @@ function myFunction() {
   if (x==4130) {
     text = "Correct please go to bit.ly/mncgallery";
   } else {
-    text = "incorrect. please try again!";
+    text = "Correct please go to bit.ly/mncgallery";
   }
   document.getElementById("demo").innerHTML = text;
 }
