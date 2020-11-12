@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'akzidenzgrotesk';
+  src: url('assets/AkzidenzGrotesk-Bold.woff') format('woff');
+  font-style: normal;
+}
+
+a img { display:none; }
+a:hover img { display:block; }
+
+a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.words {
+	font-size: 380%;
+    padding-top: 20%;
+}
