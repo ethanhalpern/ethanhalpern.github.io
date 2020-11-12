@@ -4,22 +4,38 @@
   font-style: normal;
 }
 
-a img { display:none; }
-a:hover img { display:block; }
+a img { 
+  display:none; 
+  margin:10px;
+
+}
+a:hover img { 
+  display:block; 
+  margin: 0;
+}
+
 
 a {
   color: red;
   font-family: helvetica;
   text-decoration: none;
   text-transform: uppercase;
+    margin: 4px 0;
+
 }
 
 .words {
-	font-size: 380%;
-    padding-top: 20%;
+	font-size: 180%;
+  padding-top: 20%;
+  padding-left: 30%;
+}
+
+
+body{
+  height: 100%;
 }
 
 img{
- width: 10%;
- height: 10%;
+  width: 20%;
+  height: 20%;
 }
