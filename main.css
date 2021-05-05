@@ -1,0 +1,44 @@
+img{
+      width: 50%;
+}
+
+.column {
+    width: 48%;
+    padding-left: 54%;
+  }
+
+.column1 {
+float: left;
+    width: 51%;
+    padding-left: 3%;
+    padding-top: 4%;
+    display: flex;
+    /* padding-bottom: 90%; */
+    /* flex-wrap: nowrap; */
+    align-items: flex-start;
+  }
+
+body {
+    background: linear-gradient(1deg, #6a10ff, #ffe245, #45bcff, #ff4545);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:18% 0%}
+    50%{background-position:83% 100%}
+    100%{background-position:18% 0%}
+}
